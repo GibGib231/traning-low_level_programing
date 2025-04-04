@@ -1,19 +1,19 @@
 #include<stdio.h>
 /**
  * the main starts the program
- * this print from 0 to 10
- * the return give 0
+ * this print from 0 to 9
+ * and return 0
 **/
-void print_most_numbers(void);
-int main(void)
-{
-int num1 = 0;
+void print_most_numbers(void) {
+int num1;
 
-while (num1 > 10)
-{
-printf("%d", num1);
-num1++;
+	for (num1 = 0;  num1 <= 9; num1++)
+	{
+		_putchar("%d\n",num1);
+	}
+int main() {
+
+	print_most_numbers();
+	return (0);
 }
-printf("\n");
-return (0);
-
+}
