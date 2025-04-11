@@ -1,12 +1,18 @@
 #include<stdio.h>
+#include "main.h"
+void print_alphabet(void);
 int main(void) {
-	int alphabet;
+	char alp;
 
-	for (alphabet = 'a'; alphabet >= 'z'; alphabet++) {
-		_putchar(alphabet);
+	for(alp = 'a'; alp  <= 'z'; alp++)
+	{
+	
+		_putchar(alp);
 	}
-{
+
+	{
 	_putchar("\n");
-}
+
 	return (0);
+}
 }
