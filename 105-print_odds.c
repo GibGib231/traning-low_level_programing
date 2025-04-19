@@ -16,10 +16,10 @@ int main()
 
 		printf("%d", a);
 
+		a += 2;
 		if(a < 100)
 		putchar(44);
 		putchar(32);
-		a += 2;
 	}
 
 	return(0);
