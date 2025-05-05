@@ -11,8 +11,8 @@ void print_array(int *a, int n)
 		printf("%d", a[amb]);
 		if(amb != 4)
 			printf(",");
-		printf("32");
 	}
+
 	printf("\n");
 	
 }
