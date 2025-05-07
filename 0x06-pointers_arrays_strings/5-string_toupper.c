@@ -3,7 +3,7 @@ char *string_toupper(char *str)
 
 	int alg = 0;
 
-	while(str[alg] != '\0')
+	while (str[alg] != '\0')
 	{
 	if (str[alg] >= 'a' && str[alg] <= 'z')
 	{
@@ -11,5 +11,5 @@ char *string_toupper(char *str)
 	}
 	alg++;
 	}
-	return(0);
+	return (0);
 }
