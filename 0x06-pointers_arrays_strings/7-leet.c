@@ -1,5 +1,8 @@
 #include<stdio.h>
 #include"main.h"
+/*
+*this leet funciton is t0 relpace the letter withnumber
+*/
 char *leet(char *str)
 {
 	char cah[10] = "aAeEoOtTlL";
@@ -7,15 +10,13 @@ char *leet(char *str)
 	int t;
 	int i;
 
-	for(t = 0; str[t] != '\0'; t++)
+	for (t = 0; str[t] != '\0'; t++)
 	{
-		for(i = 0; i < 10; i++)
+		for (i = 0; i < 10; i++)
 		{
-		 	if(str[t] == cah[i])
-			{
-			 str[t] = amb[i];
-			}
-		}
+			if (str[t] == cah[i])
+			str[t] = amb[i];
+	}
 	}
 	return (str);
 }
